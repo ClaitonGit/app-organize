@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Organizze" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+
+    <style name="despesaTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimaryDespesa</item>
+        <item name="colorPrimaryDark">@color/colorDarkDespesa</item>
+        <item name="colorAccent">@color/colorAccentDespesa</item>
+
+    </style>
+
+    <style name="receitaTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimaryReceita</item>
+        <item name="colorPrimaryDark">@color/colorDarkReceitas</item>
+        <item name="colorAccent">@color/colorAccentReceitas</item>
+
+    </style>
+
+    <style name="Theme.Organizze" parent="Base.Theme.Organizze" />
+</resources>
